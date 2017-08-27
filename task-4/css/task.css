@@ -1,0 +1,73 @@
+body{
+    background-color: #f2f5f6;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 3.3em;
+    background-color: #6ac6cc;
+    margin: 0 0 0.6em 0;
+    width: 100%;
+}
+.shut{
+    font-size: 1.1em;
+    color: #ffffff;
+    float: left;
+    padding: 0.8em 0 0 0.7em;
+    text-decoration:none;
+}
+.register{
+    font-size: 1.1em;
+    color: #ffffff;
+    float: right;
+    padding: 0.8em 0.7em;
+    text-decoration:none;
+}
+.old{
+    color: #fff;
+    position: absolute;
+    left: 45%;
+    line-height: 2.2em;
+    font-size: 1.5em;
+    font-weight:bold;
+}
+/*忘记密码超链接*/
+.forget{
+    text-decoration: underline;
+    font-size: 0.8em;
+    float: right;
+    margin: 0.6em 0.6em;
+}
+.forget a{
+    color: #1ff;
+}
+/*登录条*/
+.loginbar{
+    background-color: #6ac6cc;
+    height: 3.3em;
+}
+/*登录超链接*/
+p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    padding-top: 0.8em;
+}
+.loginbar a{
+    text-decoration: none;
+}
+.main-top input{
+    background:#fff url(../images/phone.png) no-repeat 1.2em ;
+    background-size: 3.2em 2.2em;
+    padding-left: 5.0em;
+    margin-bottom: 0.7em;
+}
+.main-bottom input{
+    background:#fff url(../images/password.png) no-repeat 1.2em;
+    background-size: 3.2em 2.2em;
+    padding-left: 5.0em;
+}
+.main {
+    outline: none;
+    border: 0;
+}
